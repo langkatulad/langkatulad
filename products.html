@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+<title>Products</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/w3.css">
+<body>
+
+<!--Navigation bar-->
+<div class="w3-row">
+  <div class="w3-col m2 w3-bar-block w3-center " style="">
+    <h3 class="w3-bar-item"><img src="pics/snackieu_logo.png" alt="" style="width:200px" class="w3-image w3-middle"></h3>
+    <div class="">
+    <!--  <a href="index.html" class="w3-bar-item w3-button">Home</a>-->
+    </div>
+
+        <a href="#" class="w3-bar-item w3-button w3-green w3-hover-red">Products</a>
+        <a href="mission.html" class="w3-bar-item w3-button w3-hover-red">Mission</a>
+        <a href="vision.html" class="w3-bar-item w3-button w3-hover-red">Vision</a>
+        <a href="objectives.html" class="w3-bar-item w3-button w3-hover-red">Objectives</a>
+        <a href="about_us.html" class="w3-bar-item w3-button w3-hover-red">About Us</a>
+
+  </div>
+
+  <!--product content-->
+  <div class="w3-col m10 w3-border w3-light-gray" style="">
+      <div class="w3-green w3-padding-large ">
+        <h2><b>Products</b></h2>
+      </div>
+      <div class="w3-row " style="margin-top:20px">
+
+        <!-- pic 1-->
+        <div class="w3-col m4">
+          <div class="w3-container">
+            <img src="pics/photos/chewy.png" class="w3-image w3-border w3-hover-border-green w3-hover-opacity" alt="">
+            <div class=" w3-card-4">
+              <button class="w3-btn w3-block w3-green w3-hover-yellow" onclick="document.getElementById('chewyBalls').style.display='block'">Chewy Balls</button>
+            </div>
+          </div>
+          <div id="chewyBalls" class="w3-modal" style="height:100%;">
+              <div class="w3-modal-content w3-card-4 ">
+                <header class="w3-container w3-card-4 ">
+                  <span onclick="document.getElementById('chewyBalls').style.display='none'"
+                  class="w3-button w3-red w3-display-topright w3-margin w3-card-4">&times;</span>
+                  <h2>Chewy Balls</h2>
+                </header>
+                <div class="w3-row" style="margin:20px">
+                  <div class="w3-col m8  w3-padding-large">
+                      <img src="pics/photos/chewy.png" class="w3-image w3-card" alt="">
+                  </div>
+                  <div class="w3-col m4  w3-padding-large" style="font-size:20px">
+                Our Chewy Balls are made out of glutinous flour, desiccated coconut, and ube condensed.
+                  </div>
+                </div>
+                <div class="w3-container w3-padding " style="margin-top:20px">
+                    <button type="button" name="button"   onclick="document.getElementById('chewyBalls').style.display='none';document.getElementById('orders').style.display='block'" class="w3-button w3-blue w3-hover-red" disabled>Order Now</button>
+                </div>
+              </div>
+            </div>
+
+
+
+         </div>
+
+         <!--- pic 2-->
+         <div class="w3-col m4 ">
+           <div class="w3-container">
+             <img src="pics/photos/crepe.png" class="w3-image w3-border w3-hover-border-green w3-hover-opacity" alt="">
+             <div class=" w3-card-4">
+               <button class="w3-btn w3-block w3-green  w3-hover-yellow" onclick="document.getElementById('crepeCake').style.display='block'">Crepe Cake</button>
+             </div>
+           </div>
+           <div id="crepeCake" class="w3-modal" style="height:100%">
+               <div class="w3-modal-content w3-card-4 " style="">
+                 <header class="w3-container w3-card-4 ">
+                   <span onclick="document.getElementById('crepeCake').style.display='none'"
+                   class="w3-button w3-red w3-display-topright w3-margin w3-card-4">&times;</span>
+                   <h2>Crepe Cake</h2>
+                 </header>
+                 <div class="w3-row" style="margin:20px">
+                   <div class="w3-col m8  w3-padding-large">
+                       <img src="pics/photos/crepe.png" class="w3-image" alt="">
+                   </div>
+                   <div class="w3-col m4  w3-padding-large" style="font-size:20px">
+                     Crepe Cake is a thin, flat cake made out of ripe langka or jackfruit meat, all-purpose flour, white sugar, baking powder, eggs, evaporada, and margarine.
+                   </div>
+                 </div>
+                 <div class="w3-container w3-padding " style="margin-top:20px">
+                     <button disabled type="button" name="button" onclick="document.getElementById('crepeCake').style.display='none';document.getElementById('orders').style.display='block'" class="w3-button w3-blue w3-hover-red">Order Now</button>
+                 </div>
+
+
+               </div>
+             </div>
+          </div>
+
+          <!--pic 3-->
+          <div class="w3-col m4 ">
+            <div class="w3-container">
+              <img src="pics/photos/davegie.png" class="w3-image w3-border w3-hover-border-green w3-hover-opacity" alt="">
+              <div class=" w3-card-4">
+                <button class="w3-btn w3-block w3-green  w3-hover-yellow" onclick="document.getElementById('davegeRoll').style.display='block'">Da'Vegie Roll</button>
+              </div>
+            </div>
+            <div id="davegeRoll" class="w3-modal" style="height:100%">
+                <div class="w3-modal-content w3-card-4 " style="">
+                  <header class="w3-container w3-card-4 ">
+                    <span onclick="document.getElementById('davegeRoll').style.display='none'"
+                    class="w3-button w3-red w3-display-topright w3-margin w3-card-4">&times;</span>
+                    <h2>Da'Vegie Roll</h2>
+                  </header>
+                  <div class="w3-row" style="margin:20px">
+                    <div class="w3-col m8  w3-padding-large">
+                        <img src="pics/photos/davegie.png" class="w3-image" alt="">
+                    </div>
+                    <div class="w3-col m4  w3-padding-large" style="font-size:20px">
+                      Da'Vegie Roll is made out of unripe jackfruit, carrots, sweet potatoes, garlic, and onions. Seasoning, wrapper, salt, and pepper.
+                    </div>
+                  </div>
+                  <div class="w3-container w3-padding " style="margin-top:20px">
+                      <button type="button" name="button" onclick="document.getElementById('davegeRoll').style.display='none';document.getElementById('orders').style.display='block'" class="w3-button w3-blue w3-hover-red" disabled>Order Now</button>
+                  </div>
+
+
+                </div>
+              </div>
+           </div>
+          <!--pic 4-->
+          <div class="w3-col m4 " style="margin-top:20px">
+            <div class="w3-container">
+              <img src="pics/photos/breadpie.png" class="w3-image w3-border w3-hover-border-green w3-hover-opacity" alt="">
+              <div class=" w3-card-4">
+                <button class="w3-btn w3-block w3-green w3-hover-yellow" onclick="document.getElementById('langkaBreadPie').style.display='block'">Langka Bread Pie</button>
+              </div>
+            </div>
+            <div id="langkaBreadPie" class="w3-modal" style="height:100%">
+                <div class="w3-modal-content w3-card-4 " style="">
+                  <header class="w3-container w3-card-4 ">
+                    <span onclick="document.getElementById('langkaBreadPie').style.display='none'"
+                    class="w3-button w3-red w3-display-topright w3-margin w3-card-4">&times;</span>
+                    <h2>Langka Bread Pie</h2>
+                  </header>
+                  <div class="w3-row" style="margin:20px">
+                    <div class="w3-col m8  w3-padding-large">
+                        <img src="pics/photos/breadpie.png" class="w3-image" alt="">
+                    </div><br>
+                    <div class="w3-col m4  w3-padding-large" style="font-size:20px">
+                        <!--type description here-->
+                        
+                    </div>
+                  </div>
+                  <div class="w3-container w3-padding " style="margin-top:20px">
+                      <button type="button" name="button" onclick="document.getElementById('langkaBreadPie').style.display='none';document.getElementById('orders').style.display='block'" class="w3-button w3-blue w3-hover-red" disabled>Order Now</button>
+                  </div>
+                </div>
+              </div>
+           </div>
+
+          <!--pic 5-->
+          <div class="w3-col m4 " style="margin-top:20px">
+            <div class="w3-container">
+              <img src="pics/photos/burger.png" class="w3-image w3-border w3-hover-border-green w3-hover-opacity" alt="">
+              <div class=" w3-card-4">
+                <button class="w3-btn w3-block w3-green w3-hover-yellow" onclick="document.getElementById('langkaBurger').style.display='block'">Langka Burger</button>
+              </div>
+            </div>
+            <div id="langkaBurger" class="w3-modal" style="height:100%">
+                <div class="w3-modal-content w3-card-4 " style="">
+                  <header class="w3-container w3-card-4 ">
+                    <span onclick="document.getElementById('langkaBurger').style.display='none'"
+                    class="w3-button w3-red w3-display-topright w3-margin w3-card-4">&times;</span>
+                    <h2>Langka Burger</h2>
+                  </header>
+                  <div class="w3-row" style="margin:20px">
+                    <div class="w3-col m8  w3-padding-large">
+                        <img src="pics/photos/burger.png" class="w3-image" alt="">
+                    </div>
+                    <div class="w3-col m4  w3-padding-large" style="font-size:20px">
+                      Langka Burger is a healthy meatless sandwich made out of unripe jackfruit meat, onions, garlic, flour, knorr cubes, salt, eggs, pepper, buns, ketchup, mayonnaise, and oil.
+
+                    </div>
+                  </div>
+                  <div class="w3-container w3-padding " style="margin-top:20px">
+                      <button type="button" name="button" onclick="document.getElementById('langkaBurger').style.display='none';document.getElementById('orders').style.display='block'" class="w3-button w3-blue w3-hover-red" disabled>Order Now</button>
+                  </div>
+
+
+                </div>
+              </div>
+           </div>
+
+           <!--pic 6-->
+           <div class="w3-col m4 " style="margin-top:20px">
+             <div class="w3-container">
+               <img src="pics/photos/puto.png" class="w3-image w3-border w3-hover-border-green w3-hover-opacity" alt="">
+               <div class=" w3-card-4">
+                 <button class="w3-btn w3-block w3-green w3-hover-yellow" onclick="document.getElementById('putoDeLangka').style.display='block'">Puto de Langka</button>
+               </div>
+             </div>
+             <div id="putoDeLangka" class="w3-modal" style="height:100%">
+                 <div class="w3-modal-content w3-card-4 " style="">
+                   <header class="w3-container w3-card-4 ">
+                     <span onclick="document.getElementById('putoDeLangka').style.display='none'"
+                     class="w3-button w3-red w3-display-topright w3-margin w3-card-4">&times;</span>
+                     <h2>Puto de Langka</h2>
+                   </header>
+                   <div class="w3-row" style="margin:20px">
+                     <div class="w3-col m8  w3-padding-large">
+                         <img src="pics/photos/puto.png" class="w3-image" alt="">
+                     </div>
+                     <div class="w3-col m4  w3-padding-large" style="font-size:20px">
+                      The Puto de Langka is a soft, bite-size piece of steamed cake made out of ripe jackfruit, flour, white sugar, eggs, oil, baking powder, water, salt, and vanilla.
+                     </div>
+                   </div>
+                   <div class="w3-container w3-padding " style="margin-top:20px">
+                       <button type="button" name="button" onclick="document.getElementById('putoDeLangka').style.display='none';document.getElementById('orders').style.display='block'" class="w3-button w3-blue w3-hover-red" disabled >Order</button>
+                   </div>
+                 </div>
+               </div>
+            </div>
+
+            <!--pic 7-->
+            <div class="w3-col m4 " style="margin-top:20px">
+              <div class="w3-container">
+                <img src="pics/photos/shakee.png" class="w3-image w3-border w3-hover-border-green w3-hover-opacity" alt="">
+                <div class=" w3-card-4">
+                  <button class="w3-btn w3-block w3-green w3-hover-yellow" onclick="document.getElementById('shakeeDelight').style.display='block'">Shakee Delight</button>
+                </div>
+              </div>
+              <div id="shakeeDelight" class="w3-modal" style="height:100%">
+                  <div class="w3-modal-content w3-card-4 " style="">
+                    <header class="w3-container w3-card-4 ">
+                      <span onclick="document.getElementById('shakeeDelight').style.display='none'"
+                      class="w3-button w3-red w3-display-topright w3-margin w3-card-4">&times;</span>
+                      <h2>Shakee Delight</h2>
+                    </header>
+                    <div class="w3-row" style="margin:20px">
+                      <div class="w3-col m8  w3-padding-large">
+                          <img src="pics/photos/shakee.png" class="w3-image" alt="">
+                      </div>
+                      <div class="w3-col m4  w3-padding-large" style="font-size:20px">
+                        Our refreshing Shakee Delight is made out of ripe jackfruit, evaporated milk, condensed milk, and crushed ice.
+
+                      </div>
+                    </div>
+                    <div class="w3-container w3-padding " style="margin-top:20px">
+                        <button type="button" name="button" onclick="document.getElementById('shakeeDelight').style.display='none';document.getElementById('orders').style.display='block'" class="w3-button w3-blue w3-hover-red" disabled>Order Now</button>
+                    </div>
+
+
+                  </div>
+                </div>
+             </div>
+
+            <!--pic 8-->
+            <div class="w3-col m4 " style="margin-top:20px">
+              <div class="w3-container">
+                <img src="pics/photos/smoothie.png" class="w3-image w3-border w3-hover-border-green w3-hover-opacity" alt="">
+                <div class=" w3-card-4">
+                  <button class="w3-btn w3-block w3-green w3-hover-yellow" onclick="document.getElementById('smothie').style.display='block'">Smoothie</button>
+                </div>
+              </div>
+              <div id="smothie" class="w3-modal" style="height:100%">
+                  <div class="w3-modal-content w3-card-4 " style="">
+                    <header class="w3-container w3-card-4 ">
+                      <span onclick="document.getElementById('smothie').style.display='none'"
+                      class="w3-button w3-red w3-display-topright w3-margin w3-card-4">&times;</span>
+                      <h2>Smoothie</h2>
+                    </header>
+                    <div class="w3-row" style="margin:20px">
+                      <div class="w3-col m8  w3-padding-large">
+                          <img src="pics/photos/smoothie.png" class="w3-image" alt="">
+                      </div>
+                      <div class="w3-col m4 w3-padding-large" style="font-size:20px">
+                        Our Smoothie is a nutritious drink made out of ripe jackfruit, water, sugar, and evaporated milk.
+                      </div>
+                    </div>
+                    <div class="w3-container w3-padding " style="margin-top:20px">
+                        <button type="button" name="button" onclick="document.getElementById('smothie').style.display='none';document.getElementById('orders').style.display='block'" class="w3-button w3-blue w3-hover-red" disabled>Order Now</button>
+                    </div>
+
+
+                  </div>
+                </div>
+             </div>
+
+            <!--pic 9-->
+            <div class="w3-col m4 " style="margin-top:20px">
+              <div class="w3-container">
+                <img src="pics/photos/trianggulo.png" class="w3-image w3-border w3-hover-border-green w3-hover-opacity" alt="">
+                <div class=" w3-card-4">
+                  <button class="w3-btn w3-block w3-green w3-hover-yellow" onclick="document.getElementById('springTrianggulo').style.display='block'">Spring Trianggulo</button>
+                </div>
+              </div>
+              <div id="springTrianggulo" class="w3-modal" style="height:100%">
+                  <div class="w3-modal-content w3-card-4 " style="">
+                    <header class="w3-container w3-card-4 ">
+                      <span onclick="document.getElementById('springTrianggulo').style.display='none'"
+                      class="w3-button w3-red w3-display-topright w3-margin w3-card-4">&times;</span>
+                      <h2>Spring Trianggulo</h2>
+                    </header>
+                    <div class="w3-row" style="margin:20px">
+                      <div class="w3-col m8 w3-padding-large">
+                          <img src="pics/photos/trianggulo.png" class="w3-image" alt="">
+                      </div>
+                      <div class="w3-col m4  w3-padding-large" style="font-size:20px">
+                        Spring trianggulo is triangle-shaped turon made out of ripe jackfruit, sugar, oil, wrapper, and sesame seed.
+                      </div>
+                    </div>
+                    <div class="w3-container w3-padding " style="margin-top:20px">
+                        <button type="button" name="button" onclick="document.getElementById('springTrianggulo').style.display='none';document.getElementById('orders').style.display='block'" class="w3-button w3-blue w3-hover-red" disabled>Order Now</button>
+                    </div>
+
+
+                  </div>
+                </div>
+             </div>
+
+            <!--pic 10-->
+            <div class="w3-col m4 " style="margin-top:20px">
+              <div class="w3-container">
+                <img src="pics/photos/ppang.png" class="w3-image w3-border w3-hover-border-green w3-hover-opacity" alt="">
+                <div class=" w3-card-4">
+                  <button class="w3-btn w3-block w3-green w3-hover-yellow" onclick="document.getElementById('zeppole').style.display='block'">Zeppole Ppang</button>
+                </div>
+              </div>
+              <div id="zeppole" class="w3-modal" style="height:100%">
+                  <div class="w3-modal-content w3-card-4 " style="">
+                    <header class="w3-container w3-card-4 ">
+                      <span onclick="document.getElementById('zeppole').style.display='none'"
+                      class="w3-button w3-red w3-display-topright w3-margin w3-card-4">&times;</span>
+                      <h2>Zeppole Ppang</h2>
+                    </header>
+                    <div class="w3-row" style="margin:20px">
+                      <div class="w3-col m8  w3-padding-large">
+                          <img src="pics/photos/ppang.png" class="w3-image" alt="">
+                      </div>
+                      <div class="w3-col m4  w3-padding-large" style="font-size:20px">
+                        Zeppole Ppang is a small, circle-shaped fried dough with langka filling made out of ripe langka, flour, baking powder, evaporated milk, vanilla, and sugar.
+                      </div>
+                    </div>
+                    <div class="w3-container w3-padding " style="margin-top:20px">
+                        <button type="button" name="button" onclick="document.getElementById('zeppole').style.display='none';document.getElementById('orders').style.display='block'" class="w3-button w3-blue w3-hover-red">Order</button>
+                    </div>
+
+
+                  </div>
+                </div>
+             </div>
+
+             <!--- order confirn-->
+             <div id="orders" class="w3-modal" style="height:100%" style="">
+                 <div class="w3-modal-content w3-card-4 ">
+                   <header class="w3-container w3-card-4 ">
+                     <span onclick="document.getElementById('orders').style.display='none'"
+                     class="w3-button w3-red w3-display-topright w3-margin w3-card-4">&times;</span>
+                     <h2>&nbsp;</h2>
+                   </header>
+                   <div class="w3-row" style="margin:20px">
+                     <div class="w3-col m12 w3-padding-large">
+                         <p>Order placed.</p>
+                         <p>Thank you for patronizing Langkatulad Snackieu</p><br>
+                     </div>
+                   </div>
+
+                 </div>
+               </div>
+
+       </div>
+  </div>
+
+
+</body>
+</html>
